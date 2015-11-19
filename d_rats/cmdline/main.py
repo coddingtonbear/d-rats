@@ -87,7 +87,7 @@ def uninstall_excepthook():
     global original_excepthook
     sys.excepthook = ignore_exception
 
-if __name__ == "__main__":
+def main():
     o = OptionParser()
     o.add_option("-s", "--safe",
                  dest="safe",

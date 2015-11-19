@@ -293,7 +293,8 @@ This is the D-RATS map download utility.  It will attempt to fetch all of the re
 
         self.add(self.build_gui())
 
-if __name__=="__main__":
+
+def main():
     gobject.threads_init()
 
     def stop(*args):

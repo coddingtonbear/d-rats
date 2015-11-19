@@ -28,7 +28,7 @@ from d_rats import platform
 from d_rats import transport
 from d_rats import comm
 
-if __name__ == "__main__":
+def main():
     from optparse import OptionParser
 
     o = OptionParser()
