@@ -7,8 +7,9 @@ Note: This software was **not** written by me; this was originally fetched from 
 Special Requirements
 --------------------
 
+* When creating your virtualenv, use the system Python.
 * PyGTK 2.0
-    * With `libglade`: `brew install --verbose --with-libglade pygtk`
+    * With `libglade`: `brew install --env=std --verbose --with-libglade pygtk`
     * Link into the virtualenv:
         * `ln -s /usr/local/lib/python2.7/site-packages/glib/ lib/python2.7/site-packages/`
         * `ln -s /usr/local/lib/python2.7/site-packages/gobject/ lib/python2.7/site-packages/`
