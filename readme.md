@@ -10,10 +10,12 @@ Special Requirements
 * PyGTK 2.0
     * With `libglade`: `brew install --verbose --with-libglade pygtk`
     * Link into the virtualenv:
-        * ln -s /usr/lib/python2.7/dist-packages/glib/ lib/python2.7/dist-packages/
-        * ln -s /usr/lib/python2.7/dist-packages/gobject/ lib/python2.7/dist-packages/
-        * ln -s /usr/lib/python2.7/dist-packages/gtk-2.0* lib/python2.7/dist-packages/
-        * ln -s /usr/lib/python2.7/dist-packages/pygtk.pth lib/python2.7/dist-packages/
-        * ln -s /usr/lib/python2.7/dist-packages/cairo lib/python2.7/dist-packages/
+        * `ln -s /usr/local/lib/python2.7/site-packages/glib/ lib/python2.7/site-packages/`
+        * `ln -s /usr/local/lib/python2.7/site-packages/gobject/ lib/python2.7/site-packages/`
+        * `ln -s /usr/local/lib/python2.7/site-packages/gtk-2.0* lib/python2.7/site-packages/`
+        * `ln -s /usr/local/lib/python2.7/site-packages/pygtk* lib/python2.7/site-packages/`
+        * `ln -s /usr/local/lib/python2.7/site-packages/cairo lib/python2.7/site-packages/`
 * libxml2
-    * Link into the virtualenv
+    * `echo /usr/local/opt/libxml2/lib/python2.7/site-packages >> lib/python2.7/site-packages/libxml2.pth`
+* libxslt
+    * `echo /usr/local/opt/libxslt/lib/python2.7/site-packages >> lib/python2.7/site-packages/libxslt.pth`
