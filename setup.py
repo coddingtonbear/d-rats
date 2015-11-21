@@ -5,7 +5,7 @@ from d_rats.version import DRATS_VERSION
 
 base_setup = {
     'name': 'd-rats',
-    'description': 'D-RATS',
+    'description': 'A communications tool for D-STAR',
     'long_description': 'A communications tool for D-STAR',
     'author': 'Dan Smith, KK7DS',
     'author_email': 'kk7ds@danplanet.com',
